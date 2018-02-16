@@ -47,8 +47,6 @@
 -type otree() :: aeu_mtrees:tree().
 -type query() :: aeo_query:query().
 -type oracle() :: aeo_oracles:oracle().
--type cache_item() :: {oracle, aeo_oracles:id()}
-                    | {query, aeo_oracles:id(), aeo_query:id()}.
 -type cache() :: aeu_mtrees:tree(cache_key(), cache_value()).
 -type cache_key() :: binary(). %% Sext encoded
 -type cache_value() :: binary(). %% ?DUMMY_VAL
